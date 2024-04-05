@@ -559,6 +559,10 @@ hr {
           flex-direction: row;
 }
 
+.descriptions-second__name:last-child {
+  border-bottom: none;
+}
+
 .descriptions-second__name:last-child span {
   letter-spacing: 0.075rem;
 }
@@ -1303,7 +1307,7 @@ hr {
     top: 0;
     left: -0.19rem;
     border-bottom: 0.2rem solid #d0d0d0;
-    margin: 0 0 1.55rem 0;
+    margin: 0 0 1.7rem 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1311,16 +1315,20 @@ hr {
     gap: 1.3rem;
   }
 
+  .descriptions-second__help--position {
+    padding: 0.7rem 0 0 0;
+  }
+
   .descriptions-second__help {
     font-size: 1.8rem;
   }
 
   .steps--position {
-    padding: 9rem 0 0 0;
+    padding: 11.5rem 0 0 0;
   }
 
   .steps-name__title span {
-    top: 0.4rem;
+    top: 0.2rem;
     left: 0;
     width: 30rem;
     margin: 0.9rem 0 0 0;
