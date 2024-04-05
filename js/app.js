@@ -28,7 +28,6 @@ function count(elem, step) {
     }
 };
 document.querySelector('.players__button-next').addEventListener('click', () => {
-    clearInterval(autoClick); //Остановка автоклика при нажатии на кнопку
     let step = 41.5 //значение шага перемещения в rem
     offset -= step;
     if (offset < -step*3) { 
